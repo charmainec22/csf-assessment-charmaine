@@ -1,0 +1,9 @@
+<h4>List of Cuisines</h4>
+
+<ul>
+    <li *ngFor="let r of restaurant" [routerLink]="['/list', r]" routerLinkActive="active">
+        <h4>{{ r}}</h4>
+    </li>
+</ul>
+
+
